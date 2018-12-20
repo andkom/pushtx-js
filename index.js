@@ -4,6 +4,7 @@ function pushtx(hex) {
   return Promise.all([
     services.btccom(hex),
     services.bitpay(hex),
+    services.blockchair(hex),
     services.blockchain(hex),
     services.blockexplorer(hex),
     services.localbitcoins(hex),

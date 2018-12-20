@@ -1,0 +1,31 @@
+{
+  "name": "pushtx",
+  "version": "1.0.0",
+  "description": "A JavaScript library for broadcasting Bitcoin raw transcations.",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andkom/pushtx-js.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "rawtransaction",
+    "broadcast",
+    "push",
+    "pushtx"
+  ],
+  "author": "Andrei Komarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andkom/pushtx-js/issues"
+  },
+  "homepage": "https://github.com/andkom/pushtx-js#readme"
+}

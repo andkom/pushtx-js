@@ -1,0 +1,1 @@
+module.exports = require('./insight')('https://www.localbitcoinschain.com/api/tx/send')
